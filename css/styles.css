@@ -1,0 +1,129 @@
+body {
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    background-color: #FAF8FF;
+}
+
+p {
+    line-height: 2em;
+    font-size: medium;
+}
+
+.circular-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.home-pg {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    height: 100vh;
+    grid-gap: 20px;
+}
+
+.home-pg>.text-content {
+    margin-left: 15em;
+    margin-right: 3em;
+}
+
+.about-me>.text-content {
+    margin: 5em 20em 5em 20em;
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50em;
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: beige;
+    height: 25em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-item>.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 5em 0em 5em;
+    height: 100%;
+}
+
+.proj-prototype {
+    width: 20em;
+    height: auto;
+    margin: 2em 3em 2em 0em;
+
+}
+
+.my-skills-pg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.my-skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0em 2em 0em;
+}
+
+.skill-icon {
+    list-style-type: none;
+    display: flex;
+}
+
+.skill-icon li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em 1em 0em 1em;
+
+}
+
+.skill-icon li img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.contact-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon-container img {
+    width: 40px;
+    height: 40px;
+    margin: 2em 1em 2em 1em;
+}
