@@ -127,3 +127,58 @@ nav {
     height: 40px;
     margin: 2em 1em 2em 1em;
 }
+
+.project-link {
+    /* Make the anchor fill its container */
+    color: inherit;
+    /* Inherit text color from parent */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+    grid-gap: 0px;
+}
+
+.project-content {
+    margin: 0em 10em 0em 10em;
+}
+
+.project-prototype {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    background-color: #E9F6D0;
+    align-items: center;
+    justify-items: center;
+    padding: 5em 5em;
+
+}
+
+.prototype-image {
+    width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    margin: 2em 0;
+}
+
+.project-container .subheader,
+.project-container .date {
+    color: gray;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
+#project-header,
+#project-role,
+#project-overview {
+    padding: 1em 0;
+}
