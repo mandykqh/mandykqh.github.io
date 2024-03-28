@@ -129,28 +129,26 @@ nav {
 }
 
 .project-link {
-    /* Make the anchor fill its container */
     color: inherit;
-    /* Inherit text color from parent */
     text-decoration: none;
-    /* Remove underline from links */
 }
 
 .project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    height: 100vh;
     grid-gap: 0px;
 }
 
 .project-content {
-    margin: 0em 10em 0em 10em;
+    padding: 0em 5em 5em 5em;
+    /* max-height: calc(100vh - 10em); */
 }
 
 .project-prototype {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-height: calc(100vh + 10em);
     max-height: 100vh;
     overflow-y: auto;
     position: sticky;
@@ -177,8 +175,14 @@ nav {
     font-size: smaller;
 }
 
-#project-header,
+
 #project-role,
-#project-overview {
+#project-overview,
+#project-technologies,
+.project-buttons {
     padding: 1em 0;
+}
+
+.project-buttons button {
+    margin-right: 1em;
 }
