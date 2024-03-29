@@ -47,7 +47,7 @@ nav {
 .about-me,
 .my-skills-pg,
 .project {
-    height: 100vh;
+    min-height: 100vh;
     /* scroll-snap-align: start; */
 }
 
@@ -57,8 +57,10 @@ nav {
 }
 
 .about-me>.text-content {
-    margin: 5em 20em 5em 20em;
+    /* margin: 5em 20em 5em 20em; */
     text-align: center;
+    display: grid;
+    grid-template-columns: 70em;
 }
 
 .projects {
@@ -67,9 +69,12 @@ nav {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 50em;
-    grid-gap: 20px;
+    grid-template-columns: 70em;
+    grid-gap: 40px;
     justify-content: center;
+    align-items: center;
+    /* place-items: center;
+    align-content: center; */
     padding: 20px;
 }
 
@@ -98,12 +103,17 @@ nav {
 
 .about-me,
 .my-skills-pg,
+.projects,
 .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
+}
+
+.contact {
+    margin: 5em;
 }
 
 .my-skills-container {
@@ -185,6 +195,11 @@ nav {
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); */
     /* border-radius: 30px; */
     margin: 2em 0;
+}
+
+.project-prototype.mediconnect .prototype-image {
+    width: 60%;
+    height: auto;
 }
 
 .project-container .subheader,

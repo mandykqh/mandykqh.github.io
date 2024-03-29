@@ -21,8 +21,8 @@ const projects = [
         date: 'Oct - Nov 2023',
         technologies: 'Figma, Balsamiq',
         buttons: {
-            "See Report": "https://docs.google.com/document/d/1oKjgkJOAolcFrbEUol0WORus9N0WZvLMe_qy9tGsd1Q/edit?usp=sharing",
-            "See Final Prototype": "https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=154-2709&t=5yGtvlmU4wwApuOt-0&scaling=scale-down&page-id=154%3A2337&starting-point-node-id=154%3A2709"
+            "Report": "https://docs.google.com/document/d/1oKjgkJOAolcFrbEUol0WORus9N0WZvLMe_qy9tGsd1Q/edit?usp=sharing",
+            "Final Prototype": "https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=154-2709&t=5yGtvlmU4wwApuOt-0&scaling=scale-down&page-id=154%3A2337&starting-point-node-id=154%3A2709"
         }
     },
     {
@@ -46,15 +46,15 @@ const projects = [
         date: 'Aug - Nov 2023',
         technologies: 'Figma, Balsamiq',
         buttons: {
-            "See Website": "https://niveytha-waran.my.canva.site/",
-            "See Final Prototype": "https://www.figma.com/file/8OCjkIEQSbXsGHsdC9H3m1/BiteBalance-G3-Final-Prototype?type=design&node-id=3%3A1251&mode=design&t=FIJPR1tWCNMbdagt-1"
+            "Product Website": "https://niveytha-waran.my.canva.site/",
+            "Final Prototype": "https://www.figma.com/file/8OCjkIEQSbXsGHsdC9H3m1/BiteBalance-G3-Final-Prototype?type=design&node-id=3%3A1251&mode=design&t=FIJPR1tWCNMbdagt-1"
         }
     },
     {
         id: 'peerprep',
         title: 'PeerPrep',
         overview: 'PeerPrep is a fullstack web application led by a team of 5, designed to enhance the pair-programming experience by matching users together to collaborate on LeetCode-style problems.\n\n Features include:\n• Sign up or log in to your account\n• Browse, filter, and search the question repository by title or difficulty\n• Match with another peer based on question preferences\n• Collaborate in real-time with your matched peer through coding, drawing, or chatting\n• Seamlessly switch between questions during collaboration sessions\n• Track past question attempts and view a dashboard of your performance',
-        role: 'Frontend Developer \n • Prototyping UI designs on Figma\n• Developing the frontend UI of the application',
+        role: 'Frontend Developer \n • Prototyping UI designs on Figma\n• Implementing the frontend of the application',
         links: {
             linkToUserJourneys: '<a href="https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=14-942&t=Bv010b8DzfrsnrXo-1&scaling=scale-down&page-id=0%3A1&mode=design" target="_blank" rel="noopener noreferrer">user journeys</a>',
             linkToRapidPrototypes: '<a href="https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=301-4120&t=8DDzgkG8hFBclaRC-0&scaling=scale-down&page-id=301%3A4118" target="_blank" rel="noopener noreferrer">rapid prototypes</a>',
@@ -67,11 +67,31 @@ const projects = [
         date: 'Aug - Nov 2023',
         technologies: 'TypeScript, ReactJS, Chakra UI, Figma, MongoDB, PostgreSQL, ExpressJS, NodeJS, AWS Elastic Beanstalk, Docker',
         buttons: {
-            "See Report": "https://docs.google.com/document/d/118UUeZfu11_gqHaTm0ltfEe8dfjk5yT2Jg9ytyX42wk/edit?usp=sharing",
-            "Go to GitHub": "https://github.com/CS3219-AY2324S1/ay2324s1-course-assessment-g15",
+            "Report": "https://docs.google.com/document/d/118UUeZfu11_gqHaTm0ltfEe8dfjk5yT2Jg9ytyX42wk/edit?usp=sharing",
+            "GitHub": "https://github.com/CS3219-AY2324S1/ay2324s1-course-assessment-g15",
         }
     },
-
+    {
+        id: 'mediconnect',
+        title: 'MediConnect',
+        overview: 'MediConnect is a GUI-based desktop application spearheaded by a team of four, serving as a versatile one-stop Clinical Management System.\n\n Key features include:\n• Add and manage patient and doctor information\n• Efficient retrieval and deletion of records\n• Creation and deletion of patient appointments\n• Billing and prescription medication management for patients',
+        role: 'Frontend Developer \n • Designing and implementing the UI/UX of the application',
+        links: {
+            linkToUserJourneys: '<a href="https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=14-942&t=Bv010b8DzfrsnrXo-1&scaling=scale-down&page-id=0%3A1&mode=design" target="_blank" rel="noopener noreferrer">user journeys</a>',
+            linkToRapidPrototypes: '<a href="https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=301-4120&t=8DDzgkG8hFBclaRC-0&scaling=scale-down&page-id=301%3A4118" target="_blank" rel="noopener noreferrer">rapid prototypes</a>',
+            linkToLofiPrototypes: '<a href="https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=357-3&t=Bc6M7HCxO6hm5ZFD-1&scaling=scale-down&page-id=357%3A2&mode=design" target="_blank" rel="noopener noreferrer">lo-fi prototypes</a>',
+            // linkToHifiPrototypes: '<a href="https://www.figma.com/proto/Q1LcfnQuR7W8HeMVMSzKaO/CS3240-Individual-Assignment?type=design&node-id=154-2709&t=5yGtvlmU4wwApuOt-0&scaling=scale-down&page-id=154%3A2337&starting-point-node-id=154%3A2709" target="_blank" rel="noopener noreferrer">hi-fi prototypes</a>',
+        },
+        images: [
+            'assets/img/MediConnect/1.png',
+        ],
+        date: 'Aug - Nov 2023',
+        technologies: 'Java, CSS',
+        buttons: {
+            "Product Website": "https://ay2223s2-cs2103t-w13-1.github.io/tp/",
+            "GitHub": "https://github.com/AY2223S2-CS2103T-W13-1/tp",
+        }
+    },
 ];
 function loadProject(projectId) {
     const project = projects.find(p => p.id === projectId);
