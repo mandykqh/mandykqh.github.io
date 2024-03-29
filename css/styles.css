@@ -3,6 +3,13 @@ body {
     background-color: #FAF8FF;
 }
 
+/* html,
+body {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%;
+} */
+
 p {
     line-height: 2em;
     font-size: medium;
@@ -34,6 +41,14 @@ nav {
     align-items: center;
     height: 100vh;
     grid-gap: 20px;
+}
+
+.home-pg,
+.about-me,
+.my-skills-pg,
+.project {
+    height: 100vh;
+    /* scroll-snap-align: start; */
 }
 
 .home-pg>.text-content {
@@ -81,7 +96,9 @@ nav {
 
 }
 
-.my-skills-pg {
+.about-me,
+.my-skills-pg,
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +162,8 @@ nav {
     /* max-height: calc(100vh - 10em); */
 }
 
-.project-prototype {
+.project-prototype.bloom,
+.project-prototype.bitebalance {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-height: calc(100vh + 10em);
@@ -153,18 +171,19 @@ nav {
     overflow-y: auto;
     position: sticky;
     top: 0;
-    background-color: #E9F6D0;
+    /* background-color: #E9F6D0; */
     align-items: center;
     justify-items: center;
     padding: 5em 5em;
 
 }
 
-.prototype-image {
+.project-prototype.bloom .prototype-image,
+.project-prototype.bitebalance .prototype-image {
     width: 80%;
     height: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
-    border-radius: 30px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); */
+    /* border-radius: 30px; */
     margin: 2em 0;
 }
 
